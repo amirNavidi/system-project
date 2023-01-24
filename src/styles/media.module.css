@@ -1,0 +1,29 @@
+.media{
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+.img{
+    position: absolute;
+    z-index: -1;   
+    left: 0;
+    transition: 500ms;
+}
+
+.btn{
+    color:white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #E2970C;
+   
+   
+    
+    
+}
+.media:hover .img{
+    /* bottom: 100% ;?\ */
+    transform: translateY(-50px);
+
+}

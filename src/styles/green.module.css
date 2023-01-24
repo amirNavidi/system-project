@@ -1,0 +1,20 @@
+@import url("./myFont.css");
+.greenParent{
+    background-color: #7ACB52;
+    min-height: 30vh;
+}
+
+.innerParent {
+   text-align: center;
+   margin-bottom: 25px;
+}
+.innerParent h5{
+    color: white;
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: yekan;
+}
+.innerParent p{
+    color: white;
+    font-weight: bolder;
+}

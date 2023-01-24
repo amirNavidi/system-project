@@ -1,0 +1,12 @@
+
+.middlePage{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.middlePage li{
+  list-style-type: none;
+ 
+}
+.middlePage a{
+  text-decoration: none;
+  padding:10px 25px;
+}

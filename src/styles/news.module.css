@@ -1,0 +1,20 @@
+
+.parent{
+    margin-top: 25px;
+    height: 15vh;
+}
+.parent img{
+    width: 15%;
+    height: 10vh;
+}
+.date{
+  font-size: 12px;
+  color: gray;
+}
+.description{
+  color:#007BFF;
+
+}
+.description:hover{
+    text-decoration: underline;
+}

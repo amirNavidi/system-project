@@ -1,0 +1,45 @@
+/* .firstParent{
+    border-bottom: 1px solid gray;
+    text-align: right;
+}
+.firstParent p{
+    font-size: 16px;
+    color: black;
+    color:aqua;
+} */
+.leftParent{
+    margin-right: 15px;
+}
+.firstParent{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+    position: relative;
+}
+.firstParent p{
+    color: #01C4DA;
+
+}
+.firstParent p::before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 1px;
+    width: 30%;
+    border-bottom: 1px solid #01C4DA;
+}
+
+.secoundParent a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.175);
+    /* margin-top: 18px; */
+    padding-right: 10px;
+    padding-top:18px;
+    padding-bottom: 5px;
+}
+.secoundParent a:hover{
+    color: #01C4DA;
+    transition: 500ms;
+    background-color: rgba(135, 207, 235, 0.299);
+}
